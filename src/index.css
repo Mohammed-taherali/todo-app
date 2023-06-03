@@ -1,0 +1,155 @@
+:root {
+  font-family: Poppins, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f8f8ff;
+}
+
+.main-section {
+  width: 55%;
+  min-width: 300px;
+  margin: auto;
+  padding: 10px;
+}
+
+#title {
+  margin: 0;
+  margin-top: 0.75em;
+  text-align: center;
+  color: #646681;
+}
+
+#add-button {
+  background-color: #646ff0;
+  border: none;
+  color: #fff;
+  padding: 1em;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.no-tasks {
+  /* border: 1px solid; */
+  text-align: center;
+  color: #38383f;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-menu {
+  width: 10em;
+  height: 3.5em;
+  background-color: #cccdde;
+  border: none;
+  border-radius: 5px;
+  color: #585858;
+  padding: 0;
+  cursor: pointer;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 1em;
+  font-size: small;
+  margin-bottom: 1em;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.tasks:last-of-type {
+  margin-bottom: 0;
+}
+
+
+.task-cont {
+  margin-top: 1em;
+  padding: 1em;
+  background-color: #ecedf6;
+  border-radius: 5px;
+}
+
+input.complete-status {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.striked-off {
+  text-decoration: line-through;  
+}
+
+.svg-icons {
+  width: 20px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.time-status {
+  margin-right: auto;
+  line-height: -2em;
+  color: #585858;
+}
+
+.img-cont {
+  background-color: #eee;
+  border-radius: 2px;
+  display: inline-block;
+  padding: 3px;
+  padding-top: 5px;
+}
+
+.right-margin {
+  margin-right: 10px;
+}
+
+.add-form {
+  border: 1px solid;
+  border-radius: 5px;
+  background-color:#eee;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  margin-top: 1em;
+}
+
+.add-title {
+  text-align: center;
+  margin: 0;
+  margin-top: 0.5em;
+}
+
+.label-name {
+  display: block;
+  font-size: 1.5em;
+}
+
+.task-name-input {
+  border-radius: 5px;
+  border: 1px solid;
+  width: 40%;
+  height: 2rem;
+}
+
+.add-select {
+  display: block;
+  margin: 1.5em 0;
+}
